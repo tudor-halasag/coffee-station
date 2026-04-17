@@ -2,7 +2,7 @@
 
 A coffee brewing platform built with React + Vite. Dial in your perfect cup with a rule-based recipe engine, interactive origin map, drink catalog, and brewing knowledge base.
 
-**Live site:** https://[your-username].github.io/coffee-station/
+**Live site:** https://tudor-halasag.github.io/coffee-station/
 
 ---
 
