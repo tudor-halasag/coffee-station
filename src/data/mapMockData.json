@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Yirgacheffe Cooperative",
+    "origin": "Ethiopia",
+    "region": "Africa",
+    "coords": [6.17, 38.20],
+    "flavor": ["fruity", "floral", "blueberry"],
+    "process": "washed",
+    "altitude": "1800m",
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "name": "Huila Mountain Farm",
+    "origin": "Colombia",
+    "region": "South America",
+    "coords": [2.0, -75.7],
+    "flavor": ["caramel", "citrus", "chocolate"],
+    "process": "washed",
+    "altitude": "1700m",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Antigua Finca",
+    "origin": "Guatemala",
+    "region": "Central America",
+    "coords": [14.55, -90.73],
+    "flavor": ["dark chocolate", "smoky", "spice"],
+    "process": "washed",
+    "altitude": "1600m",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Fazenda Santa Inês",
+    "origin": "Brazil",
+    "region": "South America",
+    "coords": [-18.51, -44.55],
+    "flavor": ["nutty", "chocolate", "sweet"],
+    "process": "natural",
+    "altitude": "1100m",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Nyeri Auction Lot",
+    "origin": "Kenya",
+    "region": "Africa",
+    "coords": [-0.43, 36.95],
+    "flavor": ["blackcurrant", "grapefruit", "tomato"],
+    "process": "washed",
+    "altitude": "1900m",
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Sumatra Mandheling",
+    "origin": "Indonesia",
+    "region": "Asia",
+    "coords": [2.5, 98.5],
+    "flavor": ["earthy", "cedar", "dark chocolate"],
+    "process": "wet-hulled",
+    "altitude": "1200m",
+    "rating": 4.4
+  },
+  {
+    "id": 7,
+    "name": "Geisha Reserve, Boquete",
+    "origin": "Panama",
+    "region": "Central America",
+    "coords": [8.77, -82.44],
+    "flavor": ["peach", "jasmine", "tropical fruit"],
+    "process": "washed",
+    "altitude": "1600m",
+    "rating": 5.0
+  },
+  {
+    "id": 8,
+    "name": "Cajamarca Organic",
+    "origin": "Peru",
+    "region": "South America",
+    "coords": [-7.16, -78.51],
+    "flavor": ["honey", "mild citrus", "nutty"],
+    "process": "washed",
+    "altitude": "1700m",
+    "rating": 4.3
+  },
+  {
+    "id": 9,
+    "name": "Tarrazú Honey Process",
+    "origin": "Costa Rica",
+    "region": "Central America",
+    "coords": [9.47, -83.97],
+    "flavor": ["bright citrus", "peach", "honey"],
+    "process": "honey",
+    "altitude": "1500m",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Haraz Mountain Heirloom",
+    "origin": "Yemen",
+    "region": "Asia",
+    "coords": [15.35, 43.9],
+    "flavor": ["wine", "dried fruit", "spice"],
+    "process": "natural",
+    "altitude": "2000m",
+    "rating": 4.9
+  }
+]

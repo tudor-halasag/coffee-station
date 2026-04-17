@@ -1,0 +1,233 @@
+{
+  "milk_based": [
+    {
+      "id": "latte",
+      "name": "Caffè Latte",
+      "origin": "Italy",
+      "difficulty": "Medium",
+      "icon": "☕",
+      "description": "The classic espresso and steamed milk combination. Silky, smooth, and endlessly customizable.",
+      "ingredients": ["2 shots espresso (60ml)", "200ml whole milk", "micro-foam"],
+      "steps": [
+        "Pull two shots of espresso into a 280ml cup.",
+        "Steam milk to 65°C with a tight, silky micro-foam texture.",
+        "Pour steamed milk from low height, then lift to create a white dot on top.",
+        "Optionally draw a simple latte art pattern."
+      ],
+      "tip": "The key to a great latte is properly textured milk — no bubbles, just smooth glossy foam."
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "origin": "Italy",
+      "difficulty": "Hard",
+      "icon": "🫧",
+      "description": "Equal parts espresso, steamed milk, and thick foam. Rich, bold, and texturally complex.",
+      "ingredients": ["2 shots espresso (60ml)", "60ml steamed milk", "60ml stiff foam"],
+      "steps": [
+        "Pull two espresso shots into a 180ml ceramic cup.",
+        "Steam milk to create thick, stiff foam (not silky like a latte).",
+        "Pour a small amount of steamed milk, then spoon thick foam generously on top.",
+        "Optionally dust with cinnamon or cocoa powder."
+      ],
+      "tip": "Traditional Italian cappuccino is always 180ml total — avoid oversized versions."
+    },
+    {
+      "id": "cortado",
+      "name": "Cortado",
+      "origin": "Spain",
+      "difficulty": "Easy",
+      "icon": "🥃",
+      "description": "Espresso 'cut' with a small amount of warm milk to reduce acidity. Bold but balanced.",
+      "ingredients": ["2 shots espresso (60ml)", "60ml warm milk"],
+      "steps": [
+        "Pull two espresso shots into a glass tumbler (Gibraltar glass ideal).",
+        "Warm milk to 60°C — minimal foam, almost flat.",
+        "Pour milk directly over espresso in a 1:1 ratio.",
+        "Serve immediately without stirring."
+      ],
+      "tip": "The milk is not steamed with foam — it's simply warmed to take the edge off the espresso."
+    },
+    {
+      "id": "flatWhite",
+      "name": "Flat White",
+      "origin": "Australia/NZ",
+      "difficulty": "Medium",
+      "icon": "🌀",
+      "description": "Smaller and stronger than a latte, with a higher espresso-to-milk ratio and velvety micro-foam.",
+      "ingredients": ["2 shots ristretto (40ml)", "120ml whole milk", "thin micro-foam"],
+      "steps": [
+        "Pull a double ristretto (shorter, sweeter extraction) into a 160ml cup.",
+        "Steam milk to 62°C with very fine, velvety micro-foam — thinner than a latte.",
+        "Pour milk with a free-pour latte art technique.",
+        "The result should be mostly milk with a thin layer of foam on top."
+      ],
+      "tip": "Use ristretto (not espresso) for a sweeter, less bitter base that shines through the milk."
+    },
+    {
+      "id": "macchiato",
+      "name": "Espresso Macchiato",
+      "origin": "Italy",
+      "difficulty": "Easy",
+      "icon": "☕",
+      "description": "Espresso 'stained' with a dollop of foam. The purist's compromise between straight espresso and milk drinks.",
+      "ingredients": ["2 shots espresso (60ml)", "1 tbsp foamed milk"],
+      "steps": [
+        "Pull a double espresso into a small demitasse cup.",
+        "Steam a small amount of milk to create a spoonful of stiff foam.",
+        "Spoon or pour a small amount of foam onto the espresso crema.",
+        "Serve immediately."
+      ],
+      "tip": "Macchiato means 'stained' in Italian — the milk should only lightly mark the espresso, not overwhelm it."
+    }
+  ],
+  "cold": [
+    {
+      "id": "espressoTonic",
+      "name": "Espresso Tonic",
+      "origin": "Scandinavia",
+      "difficulty": "Easy",
+      "icon": "🫧",
+      "description": "A refreshing summer drink — the bitterness of espresso floats beautifully on sparkling tonic. Surprisingly complex.",
+      "ingredients": ["2 shots espresso (60ml)", "120ml quality tonic water", "ice cubes", "optional: lemon slice"],
+      "steps": [
+        "Fill a tall glass with ice cubes.",
+        "Pour cold tonic water over the ice (pour down the side to preserve carbonation).",
+        "Slowly pour hot espresso shots over the back of a spoon to create a layered effect.",
+        "Garnish with a thin lemon slice. Do not stir — enjoy the layers."
+      ],
+      "tip": "Use a high-quality, less-sweet tonic (Fever-Tree or similar). The bitterness balance is everything."
+    },
+    {
+      "id": "coldBrew",
+      "name": "Cold Brew",
+      "origin": "Japan",
+      "difficulty": "Easy",
+      "icon": "🧊",
+      "description": "Slow cold extraction over 12–24 hours creates an ultra-smooth, low-acid coffee concentrate.",
+      "ingredients": ["100g coarse ground coffee", "800ml cold filtered water", "ice"],
+      "steps": [
+        "Combine coarse ground coffee and cold water in a large jar. Stir briefly.",
+        "Cover and refrigerate for 12–24 hours.",
+        "Strain through a fine mesh strainer lined with a coffee filter.",
+        "Serve over ice. Dilute 1:1 with water or milk for a regular strength cup."
+      ],
+      "tip": "Cold brew keeps in the fridge for up to 2 weeks. Make a big batch!"
+    },
+    {
+      "id": "icedLatte",
+      "name": "Iced Latte",
+      "origin": "United States",
+      "difficulty": "Easy",
+      "icon": "🧋",
+      "description": "Classic espresso over ice and cold milk. Simple, refreshing, and endlessly popular.",
+      "ingredients": ["2 shots espresso (60ml)", "180ml cold whole milk", "ice cubes"],
+      "steps": [
+        "Pull two shots of espresso and allow to cool slightly (or brew directly over ice).",
+        "Fill a 350ml glass with ice cubes.",
+        "Pour cold milk over the ice.",
+        "Add espresso shots over the milk. Stir and serve."
+      ],
+      "tip": "Brewing espresso directly over ice (Japanese iced coffee method) preserves aromatic volatiles better than cooling separately."
+    },
+    {
+      "id": "nitroColdBrew",
+      "name": "Nitro Cold Brew",
+      "origin": "United States",
+      "difficulty": "Expert",
+      "icon": "🌊",
+      "description": "Cold brew infused with nitrogen gas for a creamy, Guinness-like cascade and naturally sweet taste.",
+      "ingredients": ["Cold brew concentrate", "nitrogen gas (ISI whipper or keg system)"],
+      "steps": [
+        "Prepare cold brew concentrate (1:4 ratio, 24 hour steep).",
+        "Charge cold brew in a whipped cream dispenser with 1–2 nitrogen cartridges.",
+        "Refrigerate charged dispenser for at least 2 hours.",
+        "Pour into a glass at an angle and watch the cascade form. Serve immediately."
+      ],
+      "tip": "A cream whipper with N₂O cartridges works as a home nitro system — don't shake before dispensing."
+    },
+    {
+      "id": "vietnameseIced",
+      "name": "Vietnamese Iced Coffee",
+      "origin": "Vietnam",
+      "difficulty": "Easy",
+      "icon": "🥛",
+      "description": "Strong Robusta drip coffee with sweetened condensed milk over ice. Sweet, rich, and intensely caffeinated.",
+      "ingredients": ["25g Vietnamese dark roast coffee", "200ml hot water", "2 tbsp sweetened condensed milk", "ice"],
+      "steps": [
+        "Place condensed milk at the bottom of a glass.",
+        "Brew coffee through a Phin filter (Vietnamese drip filter) directly over the condensed milk.",
+        "Allow coffee to brew slowly for 3–5 minutes.",
+        "Fill a separate glass with ice. Pour the coffee-milk mixture over the ice and stir."
+      ],
+      "tip": "Traditional Vietnamese coffee uses Robusta beans — stronger and more bitter than Arabica, which is what makes this drink work with condensed milk."
+    }
+  ],
+  "experimental": [
+    {
+      "id": "saltedCaramelMisto",
+      "name": "Salted Caramel Misto",
+      "origin": "Modern Café",
+      "difficulty": "Medium",
+      "icon": "🍮",
+      "description": "A creative take on the café misto — drip coffee meets caramel-salted steamed milk for a dessert-like experience.",
+      "ingredients": ["180ml strong drip coffee", "180ml whole milk", "2 tbsp caramel sauce", "pinch of sea salt"],
+      "steps": [
+        "Brew strong drip coffee and keep warm.",
+        "Warm caramel sauce in the milk before steaming — stir to combine.",
+        "Steam caramel-milk mixture to 65°C.",
+        "Combine equal parts coffee and steamed caramel milk in a large cup. Top with a pinch of flaky sea salt."
+      ],
+      "tip": "Fleur de sel or Maldon sea salt provides the best contrast against the sweet caramel."
+    },
+    {
+      "id": "dalgona",
+      "name": "Dalgona Coffee",
+      "origin": "South Korea",
+      "difficulty": "Easy",
+      "icon": "☁️",
+      "description": "Whipped instant coffee foam over cold milk. The viral coffee trend that actually tastes incredible.",
+      "ingredients": ["2 tbsp instant coffee", "2 tbsp sugar", "2 tbsp hot water", "250ml cold milk"],
+      "steps": [
+        "Combine instant coffee, sugar, and hot water in a bowl.",
+        "Whip vigorously by hand or with an electric mixer for 3–5 minutes until stiff, caramel-colored foam forms.",
+        "Fill a glass with ice and pour cold milk.",
+        "Spoon whipped coffee foam on top. Stir before drinking."
+      ],
+      "tip": "The sugar is not optional — it's what stabilizes the foam. Reduce sweetness by using half sugar, half erythritol."
+    },
+    {
+      "id": "coffeeNegroni",
+      "name": "Coffee Negroni",
+      "origin": "Cocktail Culture",
+      "difficulty": "Medium",
+      "icon": "🍊",
+      "description": "The classic Negroni riff with cold brew replacing gin. Bold, bitter, complex, and surprisingly sophisticated.",
+      "ingredients": ["45ml cold brew concentrate", "30ml sweet vermouth", "30ml Campari", "orange peel"],
+      "steps": [
+        "Combine cold brew concentrate, sweet vermouth, and Campari in a mixing glass with ice.",
+        "Stir 20–30 times until well chilled and slightly diluted.",
+        "Strain into a rocks glass over one large ice cube.",
+        "Express orange peel over the drink and use as garnish."
+      ],
+      "tip": "This is non-alcoholic as written but use the same ratios with gin added for a full Coffee Gin Negroni."
+    },
+    {
+      "id": "turmericLatte",
+      "name": "Golden Coffee Latte",
+      "origin": "Fusion",
+      "difficulty": "Easy",
+      "icon": "✨",
+      "description": "Espresso meets golden milk — turmeric, ginger, and black pepper meet coffee for an anti-inflammatory, warming drink.",
+      "ingredients": ["1 shot espresso (30ml)", "250ml oat milk", "1 tsp turmeric", "¼ tsp ginger", "pinch black pepper", "1 tsp honey"],
+      "steps": [
+        "Warm oat milk in a small saucepan over medium heat.",
+        "Whisk in turmeric, ginger, black pepper, and honey until smooth.",
+        "Pull a single espresso shot into a large mug.",
+        "Froth the golden milk using a handheld frother or steam wand.",
+        "Pour golden milk over espresso. Top with a dusting of turmeric."
+      ],
+      "tip": "Black pepper is essential — it activates curcumin (turmeric's active compound) and improves absorption."
+    }
+  ]
+}

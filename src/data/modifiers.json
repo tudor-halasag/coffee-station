@@ -1,0 +1,68 @@
+{
+  "roast": {
+    "light": {
+      "temp": 3,
+      "explanation": "Light roasts are denser and need higher temperature (92–95°C) to fully extract floral and fruity compounds."
+    },
+    "medium": {
+      "temp": 0,
+      "explanation": "Medium roast is the sweet spot — no temperature adjustment needed."
+    },
+    "medium-dark": {
+      "temp": -2,
+      "explanation": "Slightly lower temperature reduces extraction of bitter compounds developed in medium-dark roasts."
+    },
+    "dark": {
+      "temp": -4,
+      "explanation": "Dark roasts extract quickly and bitterly at high temperatures. Lower temp preserves sweetness."
+    }
+  },
+  "strength": {
+    "mild": {
+      "ratio": 3,
+      "explanation": "Mild strength uses more water per gram of coffee — a higher ratio means a lighter cup."
+    },
+    "balanced": {
+      "ratio": 0,
+      "explanation": "Balanced strength follows the recipe's default ratio."
+    },
+    "strong": {
+      "ratio": -2,
+      "explanation": "Strong strength reduces the ratio — less water per gram of coffee for a bolder extraction."
+    },
+    "espresso": {
+      "ratio": -8,
+      "explanation": "Espresso-style uses a very low ratio (near 1:10) for intense, concentrated flavor."
+    }
+  },
+  "grind": {
+    "extra-coarse": {
+      "timePercent": 20,
+      "explanation": "Extra-coarse grind has very low surface area — needs significantly more time for full extraction."
+    },
+    "coarse": {
+      "timePercent": 10,
+      "explanation": "Coarse grind slows water flow through grounds — adds time to reach full extraction."
+    },
+    "medium-coarse": {
+      "timePercent": 5,
+      "explanation": "Slightly coarser than medium — minor time increase for proper extraction."
+    },
+    "medium": {
+      "timePercent": 0,
+      "explanation": "Medium grind is the baseline — no time adjustment needed."
+    },
+    "medium-fine": {
+      "timePercent": -5,
+      "explanation": "Finer grind extracts faster — slight time reduction to prevent over-extraction."
+    },
+    "fine": {
+      "timePercent": -10,
+      "explanation": "Fine grind has high surface area — reduces brew time to avoid bitterness."
+    },
+    "extra-fine": {
+      "timePercent": -20,
+      "explanation": "Very fine grind (espresso-level) extracts extremely fast — significant time reduction."
+    }
+  }
+}

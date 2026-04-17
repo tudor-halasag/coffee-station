@@ -1,0 +1,86 @@
+{
+  "v60": {
+    "label": "V60 Pour Over",
+    "ratio": 16,
+    "grind": "medium-fine",
+    "temperature": 92,
+    "brewTime": "2:30",
+    "steps": [
+      { "time": "0:00", "action": "Bloom", "detail": "Pour 2× coffee weight (e.g. 30g water for 15g coffee). Wait 30 seconds for CO₂ to release." },
+      { "time": "0:30", "action": "First Pour", "detail": "Pour in slow spirals from center outward up to 40% total water. Keep steady pace." },
+      { "time": "1:00", "action": "Second Pour", "detail": "Continue pouring in circular motion up to 70% of total water weight." },
+      { "time": "1:30", "action": "Final Pour", "detail": "Finish pouring remaining water. Total should reach target weight." },
+      { "time": "2:30", "action": "Drawdown", "detail": "Allow coffee to finish dripping through the filter completely." }
+    ]
+  },
+  "frenchPress": {
+    "label": "French Press",
+    "ratio": 15,
+    "grind": "coarse",
+    "temperature": 94,
+    "brewTime": "4:00",
+    "steps": [
+      { "time": "0:00", "action": "Add Coffee", "detail": "Add coarsely ground coffee to the French Press carafe." },
+      { "time": "0:10", "action": "Add Water", "detail": "Pour hot water over grounds. Stir gently to saturate all grounds evenly." },
+      { "time": "0:30", "action": "Place Lid", "detail": "Set the lid on top with the plunger pulled all the way up. Do not press yet." },
+      { "time": "4:00", "action": "Press", "detail": "Press the plunger down slowly and steadily over 20–30 seconds." },
+      { "time": "4:30", "action": "Serve", "detail": "Pour immediately to prevent over-extraction." }
+    ]
+  },
+  "aeropress": {
+    "label": "AeroPress",
+    "ratio": 14,
+    "grind": "fine-medium",
+    "temperature": 88,
+    "brewTime": "1:30",
+    "steps": [
+      { "time": "0:00", "action": "Setup", "detail": "Insert filter, wet it, attach cap to chamber. Place over sturdy mug." },
+      { "time": "0:10", "action": "Add Coffee", "detail": "Add finely-medium ground coffee into the AeroPress chamber." },
+      { "time": "0:20", "action": "Bloom", "detail": "Add a small amount of water (2× coffee weight), stir, and wait 20 seconds." },
+      { "time": "0:40", "action": "Fill & Stir", "detail": "Fill chamber with remaining water. Stir 10 times for even extraction." },
+      { "time": "1:10", "action": "Press", "detail": "Insert plunger and press down steadily over 20–30 seconds. Stop when you hear a hiss." }
+    ]
+  },
+  "coldBrew": {
+    "label": "Cold Brew",
+    "ratio": 8,
+    "grind": "extra-coarse",
+    "temperature": 4,
+    "brewTime": "720:00",
+    "steps": [
+      { "time": "0:00", "action": "Add Coffee", "detail": "Add extra-coarse ground coffee to a large jar or cold brew vessel." },
+      { "time": "0:05", "action": "Add Cold Water", "detail": "Pour cold (room temperature or refrigerator-cold) filtered water over grounds. Stir to combine." },
+      { "time": "0:15", "action": "Seal & Refrigerate", "detail": "Cover the vessel tightly and place in refrigerator." },
+      { "time": "720:00", "action": "Strain", "detail": "After 12 hours (or up to 24 for stronger), strain through a fine mesh filter or coffee filter." },
+      { "time": "720:15", "action": "Serve", "detail": "Serve over ice. Dilute 1:1 with water or milk if concentrate is too strong." }
+    ]
+  },
+  "mokaPot": {
+    "label": "Moka Pot",
+    "ratio": 10,
+    "grind": "fine",
+    "temperature": 100,
+    "brewTime": "5:00",
+    "steps": [
+      { "time": "0:00", "action": "Fill Boiler", "detail": "Fill the bottom chamber with hot water just below the pressure valve." },
+      { "time": "0:30", "action": "Add Coffee", "detail": "Fill the filter basket with finely ground coffee. Level off — do not tamp." },
+      { "time": "1:00", "action": "Assemble & Heat", "detail": "Screw the top chamber on tightly. Place on medium-low heat." },
+      { "time": "3:30", "action": "Monitor", "detail": "Listen for a bubbling/gurgling sound. Coffee will start flowing into the top chamber." },
+      { "time": "5:00", "action": "Remove & Serve", "detail": "Remove from heat when you hear sputtering. Serve immediately." }
+    ]
+  },
+  "chemex": {
+    "label": "Chemex",
+    "ratio": 17,
+    "grind": "medium-coarse",
+    "temperature": 93,
+    "brewTime": "4:00",
+    "steps": [
+      { "time": "0:00", "action": "Prep Filter", "detail": "Place Chemex filter (3-layer side toward spout), wet thoroughly, and discard rinse water." },
+      { "time": "0:30", "action": "Add Coffee", "detail": "Add medium-coarse ground coffee to the filter." },
+      { "time": "0:40", "action": "Bloom", "detail": "Pour 2× coffee weight in a slow spiral. Wait 45 seconds." },
+      { "time": "1:25", "action": "Pour", "detail": "Slowly pour in concentric circles, keeping water level consistent. Don't touch the filter walls." },
+      { "time": "4:00", "action": "Finish", "detail": "All water should drain through by 4 minutes. Remove filter and serve." }
+    ]
+  }
+}
